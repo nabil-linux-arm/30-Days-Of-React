@@ -1,23 +1,23 @@
 const header = (
-    <div>
+    <div className="header">
         <h1>SUBSCRIBE</h1>
         <p>Sign Up with your email address to recieve news and updates</p>
     </div>
 )
 
 const inputRow = (
-    <div>
-        <input type="text" name="first" id="first" />
-        <input type="text" name="last" id="last" />
-        <input type="text" name="email" id="email" />
+    <div className="input-row">
+        <input type="text" name="first" id="first" className="rectangle form-input" placeholder="First name"/>
+        <input type="text" name="last" id="last" className="rectangle form-input" placeholder="Last name"/>
+        <input type="text" name="email" id="email" className="rectangle form-input" placeholder="Email"/>
     </div>
 )
 
 const app2 = (
-    <div>
+    <div className="subscribe-form">
         {header}
         {inputRow}
-        <button type="button">Subscribe</button>
+        <button type="button" className="action-button rectangle">Subscribe</button>
     </div>
 )
 
