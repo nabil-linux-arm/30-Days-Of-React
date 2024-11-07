@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import chickenImage from './images/crispy_sesame_chicken.jpg'
 import app2 from './excercise-2'
+import app3 from './excercise-3'
 
 const rootElement = document.getElementById('root')
 
@@ -52,4 +53,4 @@ const app = (
 )
 
 
-ReactDOM.render(app2, rootElement)
+ReactDOM.render(app3, rootElement)
