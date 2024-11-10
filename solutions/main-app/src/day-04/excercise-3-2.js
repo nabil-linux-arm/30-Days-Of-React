@@ -1,4 +1,4 @@
-import jsImg from './images/javascript.png'
+import jsImg from '../images/javascript.png'
 const profile = {
     name:  "Asabaneh Yetayeh",
     career: "Senior Developer",
