@@ -31,8 +31,7 @@ const SkillSection = () => {
         textAlign: "center"
     }
 
-    const skillsFormated = profile.skills.map((skill) => <li style={ skillStyle }>{ skill }</li>)
-
+    const skillsFormated = profile.skills.map((skill) => <li key={ skill } style={ skillStyle }>{ skill }</li>)
     return (
         <div>
             <h3>Skills</h3>
