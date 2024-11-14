@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import App from './App';
-import App from './day-08/excercise-2'
+import App from './day-09/excercise-2-2'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
